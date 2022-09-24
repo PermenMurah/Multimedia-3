@@ -1,3 +1,10 @@
+var viewmode = getCookie("view-mode");
+if(viewmode == "desktop){
+	viewport.setAttribute('content', 'width=1024');
+}else if (viewmode == "mobile"){
+	viewport.setAttribute('content', 'width=device-width,initial-scale=1,0,maximum scale=1.0,user-scalable=no');
+}
+
 * {
     margin: 0;
     padding: 0;
