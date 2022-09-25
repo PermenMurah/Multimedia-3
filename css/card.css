@@ -89,7 +89,7 @@
   }
   
   .color-a{
-    background: linear-gradient(to top right, #8162CE, #F54BA5);
+    background: linear-gradient(to top right, #4e23bd, #F54BA5);
   }
   
   .color-b{
@@ -131,7 +131,6 @@
     width:60px;
     color:#ffffff;
     box-shadow: 0 13px 26px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
-    
     }
   
   .up{
