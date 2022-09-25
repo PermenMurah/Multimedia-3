@@ -56,17 +56,17 @@
      color:#ffffff;
   }
   .b{
-     color:#2F3B4B;
+     color:#f708c3;
   }
   hr{
-    border-color:#7C8097;
-    width:90%;
+    border-color:#f708c3;
+    width:100%;
     margin-top:24px;
     margin-bottom:24px;
   }
   
   .hr-2{
-    border-color:#E4E8ED;
+    border-color:#0789b1;
   }
   
   
@@ -193,7 +193,7 @@ body {
     border-radius: 20px;
     display: inline-block;
     height: 520px;
-    margin: 1rem;
+    margin: 2rem;
     position: relative;
     width: 375px;
     box-shadow: 0 12px 13px rgba(106, 123, 126, 0.884), 0 12px 13px rgba(0, 0, 0, 0.048);
