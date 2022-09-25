@@ -823,7 +823,9 @@ font-size: 12px;
   position: flex;
   justify-content: center;
   width: 100%;
-  padding: 5%;
+  padding-top: 2%;
+  padding-right: 10%;
+  padding-left: 10%;
   background-color: #cdebff;
 }
 .video-one__bg {
