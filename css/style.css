@@ -603,8 +603,6 @@ input {
   height: 100%;
   justify-content: center;
   padding-top: 25px;
-  padding-right: 50px;
-  padding-left: 50px;
   padding-bottom: 0px;
   background-color: #cdebff;
   overflow-y: hidden;
@@ -825,7 +823,7 @@ font-size: 12px;
   position: flex;
   justify-content: center;
   width: 100%;
-  padding: 70px;
+  padding: 45px;
   background-color: #cdebff;
 }
 .video-one__bg {
@@ -895,7 +893,7 @@ font-size: 12px;
 }
 .video-one__btn i {
   font-size: 24px;
-    width: 100%;
+  width: 100%;
   color: #fff;
   line-height: 106px;
 }
@@ -906,9 +904,8 @@ font-size: 12px;
   color: #fff;
 }
 .video-one__title {
-  font-size: 50px;
-  font-weight: 400;
-  width: 100%;
+  font-size: 20px;
+  font-weight: 10px;
   color: #fff;
   margin: 0;
   margin-top: 20px;
