@@ -135,7 +135,7 @@ overflow-y: hidden;
   width: 100%;
   height: 20vh;
   min-height: 50px;
-  background: linear-gradient(rgba(64, 230, 174, 0.89),rgba(94, 223, 255, 0.849)), url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+  background: linear-gradient(rgba(18, 121, 86, 0.89),rgba(94, 223, 255, 0.849)), url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -823,9 +823,9 @@ font-size: 12px;
   position: flex;
   justify-content: center;
   width: 100%;
-  padding-top: 2%;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-left: 15%;
   background-color: #cdebff;
 }
 .video-one__bg {
@@ -837,7 +837,7 @@ font-size: 12px;
 .video-one .container {
   position: relative;
   width: 100%;
-  padding: 15px;
+  padding: 20px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#ffa95c), to(#ff43c0));
   background-image: linear-gradient(0deg, #5cfff1 0%, #4395ff 100%);
   border-radius: 20px;
