@@ -63,7 +63,7 @@ text-align: center;
 width: 100%;
 height: 100%;
 padding-top: 25px;
-background-color: rgb(225, 243, 255);
+background-color: #cdebff;
 overflow-y: hidden;
 }
 
@@ -135,7 +135,7 @@ overflow-y: hidden;
   width: 100%;
   height: 20vh;
   min-height: 50px;
-  background: linear-gradient(rgba(6, 148, 230, 0.3),rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+  background: linear-gradient(rgba(64, 230, 174, 0.89),rgba(94, 223, 255, 0.849)), url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -622,7 +622,7 @@ input {
 width: 100%;
 height: 100%;
 padding-top: 25px;
-background-color: rgb(225, 243, 255);
+background-color: #cdebff;
 overflow-y: hidden;
 }
 
@@ -914,6 +914,81 @@ font-size: 12px;
 }
 .video-one__title span {
   font-weight: 700;
+}
+
+:root {
+  --delay: 0;
+  --duration: 30000ms;
+  --iterations: 1;
+}
+/* •·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
+
+
+.reveal-text,
+.reveal-text::after {
+  animation-delay: var(--animation-delay, 2s);
+  animation-iteration-count: var(--iterations, 1);
+  animation-duration: var(--duration, 800ms);
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.reveal-text {
+  --animation-delay: var(--delay, 0);
+  --animation-duration: var(--duration, 800ms);
+  --animation-iterations: var(--iterations, 1);
+  position: relative;
+  animation-name: clip-text;
+  color: #FFF;
+  white-space: nowrap;
+  cursor: default;
+  
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2f98b;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    pointer-events: none;
+    animation-name: text-revealer;
+  }
+  
+}
+
+
+@keyframes clip-text {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+
+@keyframes text-revealer {
+  
+  0%, 50% {
+    transform-origin: 0 50%;
+  }
+  
+  60%, 100% {
+    transform-origin: 100% 50%;   
+  }
+
+  
+  60% {
+    transform: scaleX(1);
+  }
+  
+  100% {
+    transform: scaleX(0);
+  }
 }
 
 .footer{ 
