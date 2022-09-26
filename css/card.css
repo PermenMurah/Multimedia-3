@@ -56,17 +56,17 @@
      color:#ffffff;
   }
   .b{
-     color:#f708c3;
+     color:#2F3B4B;
   }
   hr{
-    border-color:#f708c3;
-    width:100%;
+    border-color:#7C8097;
+    width:90%;
     margin-top:24px;
     margin-bottom:24px;
   }
   
   .hr-2{
-    border-color:#0789b1;
+    border-color:#E4E8ED;
   }
   
   
@@ -89,7 +89,7 @@
   }
   
   .color-a{
-    background: linear-gradient(to top right, #4e23bd, #F54BA5);
+    background: linear-gradient(to top right, #8162CE, #F54BA5);
   }
   
   .color-b{
@@ -100,10 +100,7 @@
     background: linear-gradient(to bottom right, #070707, #054b91);
   }
   .color-d{
-    background: linear-gradient(to bottom right, #024acf, #5b0dec6c);
-  }
-  .color-w{
-    background: linear-gradient(to bottom right, #36d60586, #0965f0);
+    background: linear-gradient(to bottom right, #6452E9, #639FF9);
   }
   
   .btn{
@@ -126,48 +123,6 @@
     border-radius:30px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
   }
-
-  .btn2{
-    border:none;
-    height:40px;
-    color:#ffffff;
-    width:35%;
-    font-size:16px;
-    border-radius:30px 0px 0px 30px;
-    box-shadow: 0 13px 26px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
-  }
-  .btn2:hover{
-    border:solid 1px #DA59B1;
-    height:40px;
-    font-family: Roboto;
-    color: #DA59B1;
-    background:#ffffff;
-    width:35%;
-    border-color: linear-gradient(to top right, #8162CE, #F54BA5);;
-    border-radius:30px 0px 0px 30px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
-  }
-
-  .btn3{
-    border:none;
-    height:40px;
-    color:#ffffff;
-    width:35%;
-    font-size:16px;
-    border-radius:0px 30px 30px 0px;
-    box-shadow: 0 13px 26px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
-  }
-  .btn3:hover{
-    border:solid 1px #18d807;
-    height:40px;
-    font-family: Roboto;
-    color: #12d85e;
-    background:#ffffff;
-    width:35%;
-    border-color: linear-gradient(to top right, #8162CE, #F54BA5);;
-    border-radius:0px 30px 30px 0px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
-  }
   
   .circule{
     border-radius:50%;
@@ -176,6 +131,7 @@
     width:60px;
     color:#ffffff;
     box-shadow: 0 13px 26px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+    
     }
   
   .up{
@@ -237,7 +193,7 @@ body {
     border-radius: 20px;
     display: inline-block;
     height: 520px;
-    margin: 2rem;
+    margin: 1rem;
     position: relative;
     width: 375px;
     box-shadow: 0 12px 13px rgba(106, 123, 126, 0.884), 0 12px 13px rgba(0, 0, 0, 0.048);
