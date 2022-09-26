@@ -53,6 +53,14 @@ h3 {
   font-size: 3rem;
 }
 
+.h5 {
+  margin: center;
+  padding-top: 10vh;
+  color: rgba(0, 38, 255, 0.534);
+  background-color: #cdebff;
+  font-size: 50px;
+}
+
 a {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgba(255, 92, 247, 0.664);
@@ -612,7 +620,7 @@ input {
   display: flex;
   width: 100%;
   height: 100%;
-  padding-top: 75px;
+  padding-top: 0;
   padding-bottom: 40px;
   background-color: #cdebff;
   overflow-y: hidden;
