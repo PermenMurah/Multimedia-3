@@ -63,7 +63,7 @@ h3 {
 
 a {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgba(255, 92, 247, 0.664);
+  color: #cdf8ff;
 }
 
 .center {
@@ -634,6 +634,15 @@ background-color: #cdebff;
 overflow-y: hidden;
 }
 
+.isi4 {
+  position: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3%;
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #cdebff;
+}
 
 .wrapper {
   display: grid;
@@ -822,6 +831,7 @@ font-size: 12px;
 .scroll-to-top:hover i {
   color: #fff;
 }
+
 
 
 /*
