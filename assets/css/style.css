@@ -1,1296 +1,962 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.2">
-    <title>Multimedia 3 || Zhebot-Q ||</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/rsponsive.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/card.css">
-    <link rel="stylesheet" href="assets/css/all.min.css"
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo/favicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo/whitelogo-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo/whitelogo-16x16.png">
-    <link rel="stylesheet/less" type="text/css" href="assets/css/style.less" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;display=swap" rel="stylesheet">
-  </head>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
 
-<body>
-    <div class="page-wrapper">
-        <div class="nav-wrapper">
-         <div class="grad-bar"></div>
-         <nav class="navbar">
-           <img src="assets/img/logo/mm3-black.png" alt="Company Logo" style="cursor: pointer">
-           <div class="menu-toggle" id="mobile-menu">
-             <span class="bar"></span>
-             <span class="bar"></span>
-             <span class="bar"></span>
-           </div>
-           <ul class="nav no-search">
-             <li class="nav-item"><a href="#">Home</a></li>
-             <li class="nav-item"><a href="404.html">About</a></li>
-             <li class="nav-item"><a href="#video">Project</a></li>
-             <li class="nav-item"><a href="#photo">Images</a></li>
-             <li class="nav-item"><a href="#pc">Profile Cards</a></li>
-           </ul>
-         </nav>
-         </div>
-         <section class="headline">
-           <h1>Class Profile Multimedia 3</h1>
-           <p class="reveal-text" style="color: rgb(255, 255, 255);">Developed by @py_sanjaya</p>
-         </section>
-         <section class="features">
-           <div class="feature-container">
-             <img src="assets/img/section/2.jpeg" alt="Flexbox Feature">
-             <h2>17 AGUSTUS 2022</h2>
-             <p style="color: black;">Lorem ipsum dolor sit amet.</p>
-           </div>
-           <div class="feature-container">
-             <img src="assets/img/section/abc.jpeg" alt="Flexbox Feature">
-             <h2>17 AGUSTUS 2022</h2>
-             <p style="color: black;">Lorem ipsum dolor sit amet consectetur.</p>
-           </div>
-           <div class="feature-container">
-             <img src="assets/img/section/2.jpeg" alt="Flexbox Feature">
-             <h2>17 AGUSTUS 2022</h2>
-             <p style="color: black;">Lorem ipsum dolor sit amet.</p>
-           </div>
-         </section>
-       </div>
-       
-       <div class="isi1" id="video">
-       <section class="video-one" id="video">
-        <h1 style="color: rgba(0, 38, 255, 0.534)">OUR BEST VIDEO PROJECT</h1>
-        <br>
-        <div class="container wow fadeInUp" data-wow-duration="1500ms">
-            <div class="video-one__box ">
-                <img src="assets/img/background/thumbnail.jpg" alt="" id="video1">
-                <div class="video-one__content">
-                    <a href="assets/video/MIMPI.mp4" class="video-popup video-one__btn">
-                      <i class="fa fa-play" style="font-size:48px;"></i></a>
-                    <!-- /.video-popup -->
-                    <h2 class="video-one__title">Short Movie Video <span> </span> <br> </h2><!-- /.video-one__title -->
-                </div><!-- /.video-one__content -->
-            </div><!-- /.video-one__box -->
-        </div><!-- /.container -->
-      </section><!-- /.video-one -->
-    </div>
+/* HEADINGS */
 
-<!-- <a href="#" data-target="html" class="scroll-to-target scroll-to-top" style="display: inline;">
-    <i class="fa fa-angle-up"></i>
-  </a>-->
+h1, p {
+  color: #fff;
+  text-align: center;
+  line-height: 1.4;
+}
 
-    <h5 class="h5" id="photo">Photo Collections</h5>
+h1 {
+  font-size: 2.2rem;
+}
 
-<div class="isi2">
-<!--[if (gte mso 9)|(IE)]><table width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
-  <table class="container" align="center" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:0 auto;" id="images">
-    <tr>
-    	<td style="line-height:20px;height:20px;" height="20">&nbsp;</td>
-    </tr>
-    <tr>
-        <td align="center" style="text-align: center; vertical-align: top; font-size: 0;">
-            <article id="slider">	
-				<input checked type="radio" name="slider" id="slide1" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;" />
-				<input type="radio" name="slider" id="slide2" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;"/>
-				<input type="radio" name="slider" id="slide3" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;" />
-				<input type="radio" name="slider" id="slide4" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;" />article
-				<input type="radio" name="slider" id="slide5" style="display:none !important;height:0;width:0;font-size:0;line-height:0;float:left;overflow:hidden;" />
-				<div id="slides">	
-					<div id="overflow">			
-						<div class="inner">											
-							<article>
-								<a href=" " target="_blank" style="text-decoration:none;color:#333333;"><div class="info" style="color:#333333;font-family: Verdana, Geneva, sans-serif;text-align: left;font-size: 14px;line-height:25px;padding:0;text-transform:uppercase;-webkit-text-size-adjust:none;"><h3 style="margin:0;padding:0;font-weight: normal;font-style: normal;font-size:22px;color:#ffffff;">17 Agustus<span class="eraseForMobile"> with Our Teacher</span></h3></div></a>
-								<a href="/" target="_blank" style="text-decoration:none;color:#666666;"><img src="assets/img/photo/1.jpeg" style="display:block;margin:0 auto;border:0;" alt="Highlight 1" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
-							</article>
-							<article>
-								<a href=" " target="_blank" style="text-decoration:none;color:#333333;"><div class="info" style="color:#333333;font-family: Verdana, Geneva, sans-serif;text-align: left;font-size: 14px;line-height:25px;padding:0;text-transform:uppercase;-webkit-text-size-adjust:none;"><h3 style="margin:0;padding:0;font-weight: normal;font-style: normal;font-size:22px;color:#ffffff;">17 Agustus<span class="eraseForMobile"> with Our Teacher</span></h3></div></a>
-								<a href="/" target="_blank" style="text-decoration:none;color:#666666;"><img src="assets/img/photo/2.jpeg" style="display:block;margin:0 auto;border:0;" alt="Highlight 1" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
-							</article>
-							<article>
-								<a href=" " target="_blank" style="text-decoration:none;color:#333333;"><div class="info" style="color:#333333;font-family: Verdana, Geneva, sans-serif;text-align: left;font-size: 14px;line-height:25px;padding:0;text-transform:uppercase;-webkit-text-size-adjust:none;"><h3 style="margin:0;padding:0;font-weight: normal;font-style: normal;font-size:22px;color:#ffffff;">17 Agustus<span class="eraseForMobile"> with Our Teacher</span></h3></div></a>
-								<a href="/" target="_blank" style="text-decoration:none;color:#666666;"><img src="assets/img/photo/3.jpeg" style="display:block;margin:0 auto;border:0;" alt="Highlight 1" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
-							</article>
-							<article>
-								<a href=" " target="_blank" style="text-decoration:none;color:#333333;"><div class="info" style="color:#333333;font-family: Verdana, Geneva, sans-serif;text-align: left;font-size: 14px;line-height:25px;padding:0;text-transform:uppercase;-webkit-text-size-adjust:none;"><h3 style="margin:0;padding:0;font-weight: normal;font-style: normal;font-size:22px;color:#ffffff;">17 Agustus<span class="eraseForMobile"> with Our Teacher</span></h3></div></a>
-								<a href="/" target="_blank" style="text-decoration:none;color:#666666;"><img src="assets/img/photo/4.jpeg" style="display:block;margin:0 auto;border:0;" alt="Highlight 1" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
-							</article>
-							<article>
-								<a href=" " target="_blank" style="text-decoration:none;color:#333333;"><div class="info" style="color:#333333;font-family: Verdana, Geneva, sans-serif;text-align: left;font-size: 14px;line-height:25px;padding:0;text-transform:uppercase;-webkit-text-size-adjust:none;"><h3 style="margin:0;padding:0;font-weight: normal;font-style: normal;font-size:22px;color:#ffffff;">17 Agustus<span class="eraseForMobile"> with Our Teacher</span></h3></div></a>
-								<a href="/" target="_blank" style="text-decoration:none;color:#666666;"><img src="assets/img/photo/5.jpeg" style="display:block;margin:0 auto;border:0;" alt="Highlight 1" /><span class="noWebkit" style="line-height:20px;height:20px;"><br/>&nbsp;<br/></span></a>
-							</article>
-							</a>			
-						</div>				
-					</div>		
-				</div>	
-				<div id="controls">
-					<label for="slide1"></label>
-					<label for="slide2"></label>
-					<label for="slide3"></label>
-					<label for="slide4"></label>			
-					<label for="slide5"></label>
-				</div>
-				<div id="active">
-					<label for="slide1"></label>
-					<label for="slide2"></label>
-					<label for="slide3"></label>
-					<label for="slide4"></label>
-					<label for="slide5"></label>			
-				</div>	
-			</article> 			
-        </td>
-    </tr>
-<tr>
-  <td style="line-height:40px;height:40px;" height="40">&nbsp;</td>
-</tr>
-    <tr>
-    	<td align="center" style="font-family:Verdana, Geneva, sans-serif;text-align:center;color:#666666;font-size:25px;"> class session photo collection.</a></td>
-    </tr>
-</table>
-</div>
-<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+h2 {
+  color: #000;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.4;
+  padding-top: 0.5rem;
+  margin-bottom: 10px;
+}
 
-<div class="center">
-<h3 style="color: black;" id="pc">PROFILE CARD 12 MULTIMEDIA 3</h3>
-</div>
+h3::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
 
-<div class="isi3" id="profile">
-<!--card-2-->
-<div class="card color-card-2">
-  <img src="assets/img/profil/1.png" alt="profile-pic" class="profile">
-  <h1 class="title-2">Ade Luthfi</h1>
-  <p class="job-title"> villager</p>
-  <div class="desc top">
-    <p style="color: black;">jangan ngurusin saya <br> Saya sudah kurus</p>
-  </div>
-  <button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
+h3:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
-  <hr class="hr-2">
-  <div class="container">
-    <div class="content">
-      <div class="grid-2">
-        <button class="color-d circule"></i></button>
-        <h2 class="title-2">( 1 )</h2>
-        <p class="followers">NUMBER</p>
-      </div>
-      <div class="grid-2">
-        <button class="color-b circule"></i></button>
-        <h2 class="title-2">( L )</h2>
-        <p class="followers">GENDER</p>
-      </div>
-      <div class="grid-2">
-        <button class="color-d circule"></i></button>
-        <h2 class="title-2">( 17 )</h2>
-        <p class="followers">AGE</p>
-      </div>
-    </div>
-  </div>
-</div>
+h3::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgba(153, 221, 255, 0.349);
+  z-index: -1;
+  transition: transform .3s ease;
+}
 
-<!--card-2-->
+h3 {
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+}
 
-<div class="card color-card-2">
+.h5 {
+  margin: center;
+  padding-top: 2vh;
+  color: rgba(0, 38, 255, 0.534);
+  background-color: #cdebff;
+  font-size: 50px;
+}
 
-    <img src="assets\img\profil/2.png" alt="profile-pic" class="profile">
-    <h1 class="title-2">Alfred Chandra</h1>
-    <p class="job-title">KETUA KELAS</p>
-    <div class="desc top">
-      <p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-    </div>
-    <button class="btn color-a top" onclick="window.location.href='https://www.instagram.com'">My Instagram</button>
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #cdf8ff;
+}
 
-    <hr class="hr-2">
-    <div class="container">
-      <div class="content">
-        <div class="grid-2">
-          <button class="color-d circule"> </i></button>
-          <h2 class="title-2">( 2 )</h2>
-          <p class="followers">NUMBER</p>
-        </div>
-        <div class="grid-2">
-          <button class="color-b circule"></i></button>
-          <h2 class="title-2">( L )</h2>
-          <p class="followers">GENDER</p>
-        </div>
-        <div class="grid-2">
-          <button class="color-d circule"></i></button>
-          <h2 class="title-2">( 17 )</h2>
-          <p class="followers">AGE</p>
-        </div>
-      </div>
-    </div>
-</div>
+.center {
+text-align: center;
+width: 100%;
+height: 100%;
+padding-top: 25px;
+background-color: #cdebff;
+overflow-y: hidden;
+}
 
-<!--card-2-->
+/* BASIC SETUP */
 
-<div class="card color-card-2">
-    <img src="assets/img/profil/3.png" alt="profile-pic" class="profile">
-    <h1 class="title-2">Amelia Zahra</h1>
-    <p class="job-title"> villager</p>
-    <div class="desc top">
-      <p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-    </div>
-    <button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
+.page-wrapper {
+  width: 100%;
+  height: auto;
+}
 
-    <hr class="hr-2">
-    <div class="container">
-      <div class="content">
-        <div class="grid-2">
-          <button class="color-d circule"> </i></button>
-          <h2 class="title-2">( 3 )</h2>
-          <p class="followers">NUMBER</p>
-        </div>
-        <div class="grid-2">
-          <button class="color-a circule"></i></button>
-          <h2 class="title-2">( P )</h2>
-          <p class="followers">GENDER</p>
-        </div>
-        <div class="grid-2">
-          <button class="color-d circule"></i></button>
-          <h2 class="title-2">( 17 )</h2>
-          <p class="followers">AGE</p>
-        </div>
-      </div>
-    </div>
-</div>
+.nav-wrapper {
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
 
-<!--card-2-->
-<div class="card color-card-2">
+.grad-bar {
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+      -webkit-animation: gradbar 15s ease infinite;
+    -moz-animation: gradbar 15s ease infinite;
+    animation: gradbar 15s ease infinite;
+}
 
-        <img src="assets/img/profil/4.png" alt="profile-pic" class="profile">
-        <h1 class="title-2">Aprilisa Hendriyanti</h1>
-        <p class="job-title"> villager</p>
-        <div class="desc top">
-          <p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-        </div>
-        <button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
+/* NAVIGATION */
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  height: 50px;
+  overflow: hidden;
+}
+
+.navbar img {
+  height: 16px;
+  width: auto;
+  justify-self: start;
+  margin-left: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  justify-self: end;
   
-        <hr class="hr-2">
-        <div class="container">
-          <div class="content">
-            <div class="grid-2">
-              <button class="color-d circule"></i></button>
-              <h2 class="title-2">( 4 )</h2>
-              <p class="followers">NUMBER</p>
-            </div>
-            <div class="grid-2">
-              <button class="color-a circule"></i></button>
-              <h2 class="title-2">( P )</h2>
-              <p class="followers">GENDER</p>
-            </div>
-            <div class="grid-2">
-              <button class="color-d circule"></i></button>
-              <h2 class="title-2">( 17 )</h2>
-              <p class="followers">AGE</p>
-            </div>
-          </div>
-        </div>
-</div>
+}
 
-<!--card-2-->
-<div class="card color-card-2">
-    <img src="assets/img/profil/5.png" alt="profile-pic" class="profile">
-    <h1 class="title-2">Bayu Riski</h1>
-    <p class="job-title"> villager</p>
-    <div class="desc top">
-      <p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-    </div>
-    <button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
+.nav-item a {
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
 
-    <hr class="hr-2">
-    <div class="container">
-      <div class="content">
-        <div class="grid-2">
-          <button class="color-d circule"> </i></button>
-          <h2 class="title-2">( 5 )</h2>
-          <p class="followers">NUMBER</p>
-        </div>
-        <div class="grid-2">
-          <button class="color-b circule"></i></button>
-          <h2 class="title-2">( L )</h2>
-          <p class="followers">GENDER</p>
-        </div>
-        <div class="grid-2">
-          <button class="color-d circule"></i></button>
-          <h2 class="title-2">( 17 )</h2>
-          <p class="followers">AGE</p>
-        </div>
-      </div>
-    </div>
-</div>
+.nav-item a:hover {
+  color: #3498db;
+}
 
-  <!--card-2-->
-<div class="card color-card-2">
+/* SECTIONS */
 
-        <img src="assets\img\profil/6.png" alt="profile-pic" class="profile">
-        <h1 class="title-2">Daffa Kurnia</h1>
-        <p class="job-title"> villager</p>
-        <div class="desc top">
-          <p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-        </div>
-        <button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
+.headline {
+  width: 100%;
+  height: 20vh;
+  min-height: 50px;
+  background: linear-gradient(rgba(18, 121, 86, 0.89),rgba(94, 223, 255, 0.849)), url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.features {
+  width: 100%;
+  height: auto;
+  background-color: rgb(225, 243, 255);
+  display: flex;
+  padding: 50px 20px;
+  justify-content: space-around;
+  overflow-y: hidden;
+}
+
+.feature-container {
+  flex-basis: 30%;
+  margin-top: 10px;
+}
+
+.feature-container p {
+  color: #000;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.feature-container img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* SEARCH FUNCTION */
+
+#search-icon {
+  font-size: 0.9rem;
+  margin-top: 3px;
+  margin-left: 15px;
+  transition: color 0.3s ease-out;
+}
+
+#search-icon:hover {
+  color: #3498db;
+  cursor: pointer;
+}
+
+.search {
+  transform: translate(-35%);
+  -webkit-transform: translate(-35%);
+  transition: transform 0.7s ease-in-out;
+  color: #3498db;
+}
+
+.no-search {
+  transform: translate(0);
+  transition: transform 0.7s ease-in-out;
+}
+
+.search-input {
+  position: absolute;
+  top: -4px;
+  right: -125px;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s ease;
+}
+
+.search-active {
+  opacity: 1;
+  z-index: 0;
+}
+
+input {
+  border: 0;
+  border-left: 1px solid #ccc;
+  border-radius: 0; /* FOR SAFARI */
+  outline: 0;
+  padding: 5px;
+}
+
+/* MOBILE MENU & ANIMATION */
+
+.menu-toggle .bar{
+  width: 25px;
+  height: 3px;
+  background-color: #3f3f3f;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle {
+  justify-self: end;
+  margin-right: 25px;
+  display: none;
+}
+
+.menu-toggle:hover{
+  cursor: pointer;
+}
+
+#mobile-menu.is-active .bar:nth-child(2){
+  opacity: 0;
+}
+
+#mobile-menu.is-active .bar:nth-child(1){
+  -webkit-transform: translateY(8px) rotate(45deg);
+  -ms-transform: translateY(8px) rotate(45deg);
+  -o-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+
+#mobile-menu.is-active .bar:nth-child(3){
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  -ms-transform: translateY(-8px) rotate(-45deg);
+  -o-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* KEYFRAME ANIMATIONS */
+
+@-webkit-keyframes gradbar {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes gradbar {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes gradbar {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/* Media Queries */
+
+  /* Mobile Devices - Phones/Tablets */
+
+@media only screen and (max-width: 720px) { 
+  .features {
+    flex-direction: column;
+    padding: 50px;
+  }
   
-        <hr class="hr-2">
-        <div class="container">
-          <div class="content">
-            <div class="grid-2">
-              <button class="color-d circule"> </i></button>
-              <h2 class="title-2">( 6 )</h2>
-              <p class="followers">NUMBER</p>
-            </div>
-            <div class="grid-2">
-              <button class="color-b circule"></i></button>
-              <h2 class="title-2">( L )</h2>
-              <p class="followers">GENDER</p>
-            </div>
-            <div class="grid-2">
-              <button class="color-d circule"></i></button>
-              <h2 class="title-2">( 16 )</h2>
-              <p class="followers">AGE</p>
-            </div>
-          </div>
-        </div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-    <img src="assets\img\profil/7.png" alt="profile-pic" class="profile">
-    <h1 class="title-2">Dwi Rama</h1>
-    <p class="job-title"> villager</p>
-    <div class="desc top">
-      <p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-    </div>
-    <button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-    <hr class="hr-2">
-    <div class="container">
-      <div class="content">
-        <div class="grid-2">
-          <button class="color-d circule"> </i></button>
-          <h2 class="title-2">( 7 )</h2>
-          <p class="followers">NUMBER</p>
-        </div>
-        <div class="grid-2">
-          <button class="color-b circule"></i></button>
-          <h2 class="title-2">( L )</h2>
-          <p class="followers">GENDER</p>
-        </div>
-        <div class="grid-2">
-          <button class="color-d circule"></i></button>
-          <h2 class="title-2">( 17 )</h2>
-          <p class="followers">AGE</p>
-        </div>
-      </div>
-    </div>
-</div>
-
-<!--card-2-->
-  <div class="card color-card-2">
-
-  <img src="assets\img\profil/8.png" alt="profile-pic" class="profile">
-  <h1 class="title-2">Erik Wahyu</h1>
-  <p class="job-title">JUNGLER</p>
-  <div class="desc top">
-    <p style="color: black;">Setiap orang memiliki waktunya</p>
-  </div>
-  <button class="btn color-w top" onclick="window.location.href='https://wa.me/62089626960011'">My Whatsapp</button>
-
-  <hr class="hr-2">
-  <div class="container">
-    <div class="content">
-      <div class="grid-2">
-        <button class="color-d circule"> </i></button>
-        <h2 class="title-2">( 8 )</h2>
-        <p class="followers">NUMBER</p>
-      </div>
-      <div class="grid-2">
-        <button class="color-b circule"></i></button>
-        <h2 class="title-2">( L )</h2>
-        <p class="followers">GENDER</p>
-      </div>
-      <div class="grid-2">
-        <button class="color-d circule"></i></button>
-        <h2 class="title-2">( 17 )</h2>
-        <p class="followers">AGE</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-  <img src="assets\img\profil/9.png" alt="profile-pic" class="profile">
-  <h1 class="title-2">Gaiskha Selena</h1>
-  <p class="job-title"> villager</p>
-  <div class="desc top">
-    <p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-  </div>
-  <button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-  <hr class="hr-2">
-  <div class="container">
-    <div class="content">
-      <div class="grid-2">
-        <button class="color-d circule"> </i></button>
-        <h2 class="title-2">( 9 )</h2>
-        <p class="followers">NUMBER</p>
-      </div>
-      <div class="grid-2">
-        <button class="color-a circule"></i></button>
-        <h2 class="title-2">( P )</h2>
-        <p class="followers">GENDER</p>
-      </div>
-      <div class="grid-2">
-        <button class="color-d circule"></i></button>
-        <h2 class="title-2">( 17 )</h2>
-        <p class="followers">AGE</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-<img src="assets\img\profil/10.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Hepy Raf Sanjaya</h1>
-<p class="job-title">UI & UX Designer</p>
-<div class="desc top">
-<p style="color: black;">Akan selalu ada kemudahan dalam<br>setiap kebaikan. Maka jadilah orang baik</p>
-</div>
-<button class="btn2 color-a top" onclick="window.location.href='https://www.instagram.com/py_sanjaya'">My Instagram</button>
-<button class="btn3 color-w top" onclick="window.location.href='https://wa.me/6282246039738'">My Whatsapp</button>
-<hr class="hr-2">
-<div class="container">
-  <div class="content">
-    <div class="grid-2">
-      <button class="color-d circule"> </i></button>
-      <h2 class="title-2">( 10 )</h2>
-      <p class="followers">NUMBER</p>
-    </div>
-    <div class="grid-2">
-      <button class="color-b circule"></i></button>
-      <h2 class="title-2">( L )</h2>
-      <p class="followers">GENDER</p>
-    </div>
-    <div class="grid-2">
-      <button class="color-d circule"></i></button>
-      <h2 class="title-2">( 17 )</h2>
-      <p class="followers">AGE</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil/11.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Ilul Sarah Autari</h1>
-<p class="job-title">BENDAHARA (VILLAIN)</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/?hl=en';" >My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 11 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-a circule"></i></button>
-    <h2 class="title-2">( P )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil/12.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Jaenal Abidin</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-
-<a href="https://www.instagram.com/"></a>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 12 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/13.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Kelvin Segara</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 13 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 18 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/14.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Kheisa Mevia</h1>
-<p class="job-title">Bendahara</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 14 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-a circule"></i></button>
-    <h2 class="title-2">( P )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil/15.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Lisa Marlina</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 15 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-a circule"></i></button>
-    <h2 class="title-2">( P )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/16.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Morreno Ariel</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 16 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/17.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Muhammad Fadly</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil/18.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Muhammad Fahreza</h1>
-<p class="job-title"> MUSICIAN</p>
-<div class="desc top">
-<p style="color: black;">I am Fahreza Hafidz. My Hobby is <br>against Music Industry & Composing audio</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 18 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/19.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Fikri Ihsan</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 19 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil/20.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Muhammad Ichlasul</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">I like Playing Valorant <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 20 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil/21.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Muhammad Ilham</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 21 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil\22.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Nanda Hariyansyah</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 22 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil/23.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Nindy Putri</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 23 )</h2>
-    <p class="followers">Followers</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-a circule"></i></button>
-    <h2 class="title-2">( P )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/base.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Putri Yuliana</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2"> ( 24 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-a circule"></i></button>
-    <h2 class="title-2">( P )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/25.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Radit Putra</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Anggur merah intisari <br>jangan menyerah teruslah berlari.</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 25 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/base.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Rafli Wirawan</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 26 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/27.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Reyffan Febrian</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 27 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/28.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Riandi Pratama</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 28 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/29.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Ringga Fernandez</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 29 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets\img\profil/30.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Rival Adistia</h1>
-<p class="job-title">WAKIL KETUA KELAS</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 30 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/31.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Siti Hamidah</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 31 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-a circule"></i></button>
-    <h2 class="title-2">( P )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/32.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Tubagus Fabian</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 32 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-b circule"></i></button>
-    <h2 class="title-2">( L )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/33.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Vanessa Ramadhani</h1>
-<p class="job-title"> villager</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 33 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-a circule"></i></button>
-    <h2 class="title-2">( P )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<!--card-2-->
-<div class="card color-card-2">
-
-<img src="assets/img/profil/34.png" alt="profile-pic" class="profile">
-<h1 class="title-2">Zahra Nurhaliza</h1>
-<p class="job-title">BENDAHARA</p>
-<div class="desc top">
-<p style="color: black;">Lorem ipsum dolor <br> sit amet blablablablabla</p>
-</div>
-<button class="btn color-a top" onclick="window.location.href='https://www.instagram.com/'">My Instagram</button>
-
-<hr class="hr-2">
-<div class="container">
-<div class="content">
-  <div class="grid-2">
-    <button class="color-d circule"> </i></button>
-    <h2 class="title-2">( 34 )</h2>
-    <p class="followers">NUMBER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-a circule"></i></button>
-    <h2 class="title-2">( P )</h2>
-    <p class="followers">GENDER</p>
-  </div>
-  <div class="grid-2">
-    <button class="color-d circule"></i></button>
-    <h2 class="title-2">( 17 )</h2>
-    <p class="followers">AGE</p>
-  </div>
-</div>
-</div>
-</div>
-
-<br>
-<br>
-<br>
-
-<footer>
-  <h4 style="padding-top: 15px; color: rgba(59, 59, 59, 0.822)";">© copyright 2022 by <a href="https://www.instagram.com/py_sanjaya">@py_sanjaya</a></h4>
-</footer>
-
-       
-       <script src="assets/js/min.app.js"></script>
-       <script src="assets/js/theme.js"></script>
-      </body>
-</html>
+  /* MOBILE HEADINGS */
+  
+  h1 {
+    font-size: 1.9rem;
+  }
+  
+  h2 {
+    font-size: 1rem;
+  }
+  
+  p {
+    font-size: 0.8rem;
+  }
+  
+  /* MOBILE NAVIGATION */
+     
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: start;
+    top: 55px;
+    background-color: #fff;
+    width: 100%;
+    height: calc(100vh - 55px);
+    transform: translate(-101%);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    padding: 15px;
+  }
+  
+  .navbar li:first-child {
+    margin-top: 50px;
+  }
+  
+  .navbar li a {
+    font-size: 1rem;
+  }
+   
+  .menu-toggle, .bar {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .mobile-nav {
+  transform: translate(0%)!important;
+}
+  
+  /* SECTIONS */
+  
+  .headline {
+    height: 20vh;
+  }
+    
+  .feature-container p {
+    margin-bottom: 25px;
+  }
+  
+  .feature-container {
+    margin-top: 20px;
+  }
+  
+  .feature-container:nth-child(2) {
+    order: -1;
+  }
+  
+  /* SEARCH DISABLED ON MOBILE */
+  
+  #search-icon {
+    display: none;
+  }
+  
+  .search-input {
+  display: none;
+ }
+  
+}
+
+
+@media yahoo {
+  input {
+    display:none !important;
+    font-size:0 !important;
+    line-height:0 !important;
+    float:left !important;
+    overflow:hidden !important;
+    width:0 !important;
+    height:0 !important;
+  }
+}
+  #slider {
+    text-align: center;
+    margin: 0 auto;
+  }
+@media only screen and (-webkit-min-device-pixel-ratio: 1){
+  * { 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+  }
+  label {
+    cursor: pointer;
+  }
+  #slide1:checked ~ #slides .inner { 
+    margin-left:0; 
+  }
+  #slide2:checked ~ #slides .inner { 
+    margin-left:-100%; 
+  }
+  #slide3:checked ~ #slides .inner { 
+    margin-left:-200%; 
+  }
+  #slide4:checked ~ #slides .inner { 
+    margin-left:-300%; 
+  }
+  #slide5:checked ~ #slides .inner { 
+    margin-left:-400%; 
+  }
+  #overflow {
+  width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+  }
+  article img {
+    width: 100%;
+    height:auto;
+  }
+  #slides .inner {
+    width: 500%;
+    line-height: 0;
+  }
+  #slides article {
+    width: 20%;
+    float: left;
+  }
+  #controls {
+    margin-top: -201px;
+    width: 100%;
+    height: 50px;
+    top:50%;
+  }
+  #controls label { 
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+  }
+  #active {
+    margin: 30% 0 0;
+    text-align: center;
+  }
+  #active label {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 55, 55, 0.575);
+    margin:0 10px;
+  }
+  #active label:hover {
+    background: #c9dd11;
+  }
+  #controls label:hover {
+    opacity: 0.8;
+  }
+  #slide1:checked ~ #controls label:nth-child(2), 
+  #slide2:checked ~ #controls label:nth-child(3), 
+  #slide3:checked ~ #controls label:nth-child(4), 
+  #slide4:checked ~ #controls label:nth-child(5), 
+  #slide5:checked ~ #controls label:nth-child(1) {
+    background: url('https://assets.bounceexchange.com/assets/uploads/users/741/ScxFjIFK.png') no-repeat;
+    float: right;
+    margin: 0 -70px 0 0;
+    display: block;
+  }
+  #slide1:checked ~ #controls label:nth-child(5),
+  #slide2:checked ~ #controls label:nth-child(1),
+  #slide3:checked ~ #controls label:nth-child(2),
+  #slide4:checked ~ #controls label:nth-child(3),
+  #slide5:checked ~ #controls label:nth-child(4) {
+    background: url('https://assets.bounceexchange.com/assets/uploads/users/741/fJyenwIJ.png') no-repeat;
+    float: left;
+    margin: 0 0 0 -70px;
+    display: block;
+  }
+  #slide1:checked ~ #active label:nth-child(1),
+  #slide2:checked ~ #active label:nth-child(2),
+  #slide3:checked ~ #active label:nth-child(3),
+  #slide4:checked ~ #active label:nth-child(4),
+  #slide5:checked ~ #active label:nth-child(5) {
+    background: rgba(2, 180, 26, 0.658);
+    border-color: rgb(51, 51, 51) !important;
+  }
+  .info {
+    opacity: 0 !important;
+    position: absolute;
+    margin:25px;
+  }
+  #slides .inner {
+    -webkit-transform: translateZ(0);
+    -webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+      transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  }
+  #slider {
+    -webkit-transform: translateZ(0);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }			
+  #controls label{
+    -webkit-transform: translateZ(0);
+    -webkit-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+  }
+  #slide1:checked ~ #slides article:nth-child(1) .info,
+  #slide2:checked ~ #slides article:nth-child(2) .info,
+  #slide3:checked ~ #slides article:nth-child(3) .info,
+  #slide4:checked ~ #slides article:nth-child(4) .info,
+  #slide5:checked ~ #slides article:nth-child(5) .info {
+    opacity: 1 !important;
+    -webkit-transition: all 1s ease-out 0.6s;
+    transition: all 1s ease-out 0.6s;
+  }
+  .info, #controls, #slides, #active, #active label, .info h3 {
+    -webkit-transform: translateZ(0);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  .noWebkit {
+    display:none !important;
+    line-height:0 !important;
+    width:0 !important;
+    font-size:0 !important;
+    height:0 !important;
+  }
+}
+@media only screen and (max-width: 850px) and (min-width: 450px) {
+  #slider #controls {
+    margin: -25% 0 0 15%;
+    width: 70%;
+    height: 50px;
+  }
+  #slider #controls label {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  #slider #active {
+    margin: 22% 0 0;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #slider #controls {
+    margin: -40% 0 0 20%;
+    width: 60%;
+    height: 50px;
+  }
+  #slider #active {
+    margin: 30% 0 0;
+  }
+  #slider #slides {
+    padding: 1% 0;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+  }
+  #slider #controls label {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+  .info {
+    margin:10px !important;
+  }
+  h3 {
+    font-size:18px !important;
+    line-height:23px !important;
+  }
+  *[class=eraseForMobile] {
+    display:none !important;
+    font-size:0 !important;
+    line-height:0 !important;
+    width:0 !important;
+    height:0 !important;
+    float:left !important;
+    overflow:hidden !important;
+  }
+}
+
+.isi1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #cdebff;
+  overflow-y: hidden;
+}
+
+.isi2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 40px;
+  background-color: #cdebff;
+  overflow-y: hidden;
+}
+
+.isi3 {
+width: 100%;
+height: 100%;
+padding-top: 25px;
+background-color: #cdebff;
+overflow-x: hidden;
+}
+
+.isi4 {
+  position: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3%;
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #cdebff;
+}
+
+.wrapper {
+  display: grid;
+  grid-row: auto;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fit, 15rem);
+  justify-content: center;
+  width: 350px;
+  height: 550px;
+  right: 2.2rem;
+  background: #fdfeff;
+  transition: background 0.6s ease;
+  border-radius: 50px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0 8px 40px rgb(2, 158, 179);
+  position: relative;
+  margin: 3.5rem;
+}
+
+
+.wrapper .top-icons i {
+color: #080911;
+}
+.wrapper .top-icons i:nth-of-type(1) {
+float: left;
+}
+.wrapper .top-icons i:nth-of-type(2) {
+float: right;
+}
+.wrapper .top-icons i:nth-of-type(3) {
+float: right;
+padding-right: 0.8em;
+}
+.wrapper .profile {
+margin-top: 0.2em;
+position: relative;
+}
+.wrapper .profile:after {
+width: 100%;
+height: 1px;
+content: ' ';
+display: block;
+margin-top: 1.3em;
+background: #e9eff6;
+}
+.wrapper .profile .check {
+position: absolute;
+right: em;
+bottom: .7em;
+}
+.wrapper .profile .check i {
+color: rgb(223, 29, 29);
+width: 20px;
+height: 20px;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+border-radius: 100%;
+background: linear-gradient(to bottom right, #c90a6d, #ff48a0);
+}
+.wrapper .profile .thumbnail {
+width: 124px;
+height: 124px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1.5em;
+border-radius: 100%;
+box-shadow: 0 13px 26px rgba(0, 0, 0, .2), 0 3px 6px rgba(0, 0, 0, .2);
+}
+.wrapper .profile .name {
+color: #2d354a;
+font-size: 24px;
+font-weight: 600;
+text-align: center;
+}
+.wrapper .profile .title {
+color: #7c8097;
+font-size: 0.75em;
+font-weight: 300;
+text-align: center;
+padding-top: 0.5em;
+padding-bottom: 0.7em;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+}
+.wrapper .profile .description {
+color: #080911;
+font-size: 14px;
+font-weight: 300;
+text-align: center;
+margin-bottom: 1.3em;
+}
+.wrapper .profile .btn-wrapper {
+color: #fff;
+width: 130px;
+height: 42px;
+outline: none;
+border: none;
+display: block;
+cursor: pointer;
+font-weight: 300;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-radius: 70px;
+box-shadow: 0 13px 26px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .16);
+background: linear-gradient(to bottom right, #05b32b9a, #0ba847);
+}
+.wrapper .social-icons {
+display: flex;
+margin-top: 1.2em;
+justify-content: space-between;
+}
+.wrapper .social-icons .icon {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.wrapper .social-icons .icon a {
+color: #fff;
+width: 60px;
+height: 60px;
+font-size: 28px;
+line-height: 60px;
+text-align: center;
+border-radius: 30px;
+box-shadow: 0 13px 26px rgba(0, 0, 0, .2), 0 3px 6px rgba(0, 0, 0, .2);
+}
+.wrapper .social-icons .icon:nth-of-type(1) a {
+background: linear-gradient(to top right, #11cbfa, #1852cf);
+}
+.color-l{
+background: linear-gradient(to bottom right, #c90a6d, #ff48a0);
+}
+.wrapper .social-icons .icon:nth-of-type(2) a {
+background: linear-gradient(to bottom right, #070707, #054b91); 
+}
+.wrapper .social-icons .icon:nth-of-type(3) a {
+background: linear-gradient(to bottom right, #6452E9, #639FF9);
+}
+.wrapper .social-icons .icon h4 {
+color: #080911;
+font-size: 1.3em;
+margin-top: 0.5em;
+margin-bottom: 0.2em;
+}
+.wrapper .social-icons .icon p {
+color: #666b7d;
+font-size: 12px;
+}
+
+.scroll {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.scroll-to-top {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff4eb5), color-stop(51%, #ffa065), to(#ff4eb5));
+  background-image: linear-gradient(to right, #4eafff 0%, #6f65ff 51%, #4eafff 100%);
+  background-size: 200% auto;
+  position: fixed;
+  bottom: 70px;
+  right: 25px;
+  z-index: 99;
+  text-align: center;
+  -webkit-transition: .4s;
+  transition: .4s;
+  display: none;
+  border-radius: 50%;
+}
+.scroll-to-top i {
+  color: #fff;
+  font-size: 18px;
+  line-height: 45px;
+}
+.scroll-to-top:hover {
+  background-position: right center;
+}
+.scroll-to-top:hover i {
+  color: #fff;
+}
+
+
+
+/*
+* 8. video styles
+*/
+.video-one {
+  position: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3%;
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #cdebff;
+}
+.video-one__bg {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  left: 0;
+}
+.video-one .container {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffa95c), to(#ff43c0));
+  background-image: linear-gradient(0deg, #5cfff1 0%, #4395ff 100%);
+  border-radius: 20px;
+  z-index: 10;
+}
+.video-one__box {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+}
+.video-one__box > img {
+  width: 100%;
+  border-radius: 20px;
+}
+.video-one__box:hover .video-one__content {
+  background-color: rgba(42, 40, 51, 0.2);
+}
+.video-one__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 40, 51, 0.6);
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  border-radius: 20px;
+}
+.video-one__btn {
+  width: 106px;
+  height: 106px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff4eb5), color-stop(51%, #ffa065), to(#ff4eb5));
+  background-image: linear-gradient(to right, #5c88ff 0%, #5cfff1 40%, #5c88ff 100%);
+  background-size: 200% auto;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-box-shadow: 0px 20px 40px 0px rgba(42, 40, 51, 0.8);
+          box-shadow: 0px 20px 40px 0px rgba(42, 40, 51, 0.8);
+}
+.video-one__btn i {
+  font-size: 24px;
+  width: 100%;
+  color: #fff;
+  line-height: 106px;
+}
+.video-one__btn:hover {
+  background-position: right center;
+}
+.video-one__btn:hover i {
+  color: #fff;
+}
+.video-one__title {
+  font-size: 50px;
+  font-weight: 10px;
+  color: #fff;
+  margin: 0;
+  margin-top: 8px;
+}
+.video-one__title span {
+  font-weight: 700;
+}
+
+:root {
+  --delay: 0;
+  --duration: 10000ms;
+  --iterations: 1;
+}
+/* •·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
+
+
+.reveal-text,
+.reveal-text::after {
+  animation-delay: var(--animation-delay, 1s);
+  animation-iteration-count: var(--iterations, 1);
+  animation-duration: var(--duration, 800ms);
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.footer{ 
+position:absolute; 
+bottom:0; 
+width:100%; 
+height:100px; 
+text-align: center;
+}
+
+footer{ background:#1b1b1b52; height:50px; }
