@@ -611,7 +611,7 @@ input {
 .judul {
   width: 100%;
   height: 200px;
-  padding: 5%;
+  padding-top: 30px;
   background: linear-gradient(rgba(94, 223, 255, 0.849), #cdebff);
 }
 
