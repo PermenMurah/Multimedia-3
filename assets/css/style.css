@@ -648,6 +648,7 @@ input {
 }
 
 .another {
+  padding-top: 2vh;
   background-color: #cdebff;
 }
 
