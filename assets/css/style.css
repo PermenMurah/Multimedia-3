@@ -631,6 +631,7 @@ input {
   display: flex;
   flex-direction: column;
   font-size: 5vh;
+  border-style: solid;
   padding-top: 30px;
   background: linear-gradient(rgba(8, 255, 234, 0.849), #cdebff);
 }
