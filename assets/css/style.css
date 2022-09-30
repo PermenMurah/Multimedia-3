@@ -634,7 +634,7 @@ input {
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #cdebff;
+  background-color: rgb(225, 243, 255);
   overflow-y: hidden;
 }
 
@@ -866,7 +866,7 @@ font-size: 12px;
   padding-top: 3%;
   padding-right: 15%;
   padding-left: 15%;
-  background-color: #cdebff;
+  background: linear-gradient(rgb(225, 243, 255), #cdebff);
 }
 .video-one__bg {
   position: absolute;
