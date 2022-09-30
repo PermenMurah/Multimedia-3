@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', 'Arial', 'Poppins', sans-serif;
+  font-family: 'Lato', 'Arial', sans-serif;
 }
 
 /* HEADINGS */
@@ -650,84 +650,6 @@ input {
 .another {
   padding-top: 1vh;
   background-color: #cdebff;
-}
-
-#header-items{
-  display:grid; 
-  /*using grid to display logo and the rest of the header*/
-  /*initially it was positioned using float and position properties, but while making the assignment I became a fan of grid module*/ 
-  grid-template-columns: 30% 70%; 
-  text-align:right;
-  margin-bottom:10%;
-  margin-top:5%;
-  /*I am not quite sure, whether I should have fixed the header at the top of the page in order to make it visible despite user's scrolling... Anyway I did this to the hamburger menu later - just to compare the experience */ 
-  }
- .header-item {
-   margin-left:3%;
-   color:#444;
-   font-weight:550;
-   /*just a little make-up for the header*/
-  }
-.color-highlight, header .color-highlight, header a:active, #hamburger-menu:active {
-  color: rgb(38, 125, 244);
-  /*sets up consistent color for different classes, elements, etc.*/
-}
-::selection {
-  background: rgb(38, 125, 244); 
-  /*just for fun: tried to change selection looks*/
-}
-.margin-sides {
-  margin-left:2%;
-  margin-right:2%;
-  /*Sets up same margins for the class, which describes relevant blocks and elements*/
-}
-.header-item:hover {
-  color:rgb(38, 125, 244);
-}
-.margin-sides {
-  margin-left:2%;
-  margin-right:2%;
-  /*Sets up same margins for the class, which describes relevant blocks and elements*/
-}
-.margin-sides {
-  margin-left:0;
-  margin-right:0;
-  /*making smaller fixed margins for small screens */
-}
-.main-block p{
-  margin-left:0%;
-  /*Looks better to me this way*/
-}
-.main-block {
-  display:grid; /* You might have noted already, how much I like the GRID. Maybe I just havn't discovered its Dark Side... */
-  grid-template-columns:50% 50%;
-  background-color: #cdebff;
-  margin-bottom:5%;
-}
-.main-block h1{
-  margin-top:0;
-  font-size:5em;
-}
-.main-block p{
-  margin-top:3%;
-  margin-left:25%;
-  font-size: 1.75rem;
-  /* trying to match the Assignment Screenshot as close as I can*/  
-}
-.main-block {
-  display:grid; /* You might have noted already, how much I like the GRID. Maybe I just havn't discovered its Dark Side... */
-  grid-template-columns:50% 50%;
-  margin-bottom:0%;
-}
-.main-block h1{
-  margin-top:0;
-  font-size:5em;
-}
-.main-block p{
-  margin-top:3%;
-  margin-left:25%;
-  font-size: 1.75rem;
-  /* trying to match the Assignment Screenshot as close as I can*/  
 }
 
 .isi2 {
